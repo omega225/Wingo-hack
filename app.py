@@ -8,7 +8,7 @@ from flask import Flask, render_template, jsonify, request
 #      AETHER CORE OVERRIDE V18
 # ==========================================
 API_TOKEN = '8603761391:AAGx6XOfW0Tu_OoOUJUOrB-K4lLupMBiPfw'
-WEBAPP_URL = 'PASTE_YOUR_RENDER_URL_HERE' 
+WEBAPP_URL = 'https://maanwin.onrender.com' 
 # ==========================================
 
 bot = telebot.TeleBot(API_TOKEN)
